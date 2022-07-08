@@ -1,0 +1,111 @@
+.header{
+    font-family: Inter;
+    font-size: 3.2em;
+    font-weight: 700;
+    text-align: center;
+    margin: 1em;
+}
+
+.header > span{
+    color: #1DA1F2;
+}
+
+.main{
+    margin-left: 12em;
+    margin-right: 12em;
+    max-height: 100vh;
+}
+
+.overviewSection{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 2rem;
+}
+
+.questionSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.questionbar{
+    margin-top: 10px;
+    display: flex;
+    gap: 1rem;
+    color: #fff;
+    width: 709px;
+}
+
+.questionbox{
+    height: 416px;
+    width: 709px;
+    left: 195px;
+    top: 390px;
+    border-radius: 37px;
+    background: #2A2E35;
+}
+
+.sidePanel{
+    height: 416px;
+    width: 275px;
+    left: 963px;
+    top: 395px;
+    border-radius: 30px;
+    background: #2A2E35A3;
+
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidePanel > h3{
+    font-family: Inter;
+    font-size: 1.6em;
+    font-weight: 800;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 1em;
+}
+
+.sidePanel > h3 > p{
+    color: #1DA1F2;
+}
+
+.stats > p{
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.stats{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    justify-content: start;
+}
+
+.badge {
+	width: 2em;
+	height: 2em;
+	border-radius: 50%;
+	transition: all 0.2s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1DA1F2;
+}
+
+.currentUser{
+    display: flex;
+    gap:1rem;
+    justify-content: start;
+    align-items: center;
+}
