@@ -1,5 +1,6 @@
-import React, {useState} from "react";
+import React, {useEffect, useState} from "react";
 import styles from './style.module.css';
+import ReactLoading from 'react-loading';
 
 var empty = [
     [-1,-1,-1,-1,-1,-1,-1,-1,-1],
@@ -104,7 +105,17 @@ export default function Sudoku(props){
             }
         }
     }
-    return (
+    const [loading, setLoading] = useState(true);
+      
+    useEffect(() => {
+      const loadData = async () => {
+        await new Promise((r) => setTimeout(r, 5000));
+        setLoading((loading) => !loading);
+      };
+        
+      loadData();
+    }, [])
+    return loading ? (<div className={styles.loader}><ReactLoading type="bubbles" color="#1DA1F2" height={90} width={90} /></div>) : (
         <div>
             <div className={styles.wrapper}>
             <div class={styles.title}>

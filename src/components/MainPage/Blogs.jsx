@@ -4,7 +4,7 @@ export default function Blogs({isActive}){
     const style1 = {animation: "appear 1s ease-in-out", display: "block", ttransform: "translateY(0) scaleY(1)"}
     const style2 = {display:"none"}
     return(
-        <section style={isActive==1 ? style1: style2} className="section sec4 blogs">
+        <section style={isActive===1 ? style1: style2} className="section sec4 blogs">
             <div class="blogs-content">
                 <div class="main-title">
                     <h2>My <span>Blogs</span><span class="bg-text">My Blogs</span></h2>
