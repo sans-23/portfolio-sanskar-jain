@@ -1,0 +1,54 @@
+a {text-decoration:none;}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 70px;
+}
+
+.sidenav a {
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 50px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.avatarImg{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+
+.listItem{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 2px;
+}
+
+.socialIcons{
+    display: flex;
+    justify-content: start;
+    gap: 15px;
+}

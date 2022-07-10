@@ -17,7 +17,14 @@ export default function Portfolio({isActive}){
             </p>
             <div class="portfolios">
                 <PortfolioItem link="https://sans1812.pythonanywhere.com/quiz/" img="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.ea99aIBs_QQSITPRoMWZvwHaD4%26pid%3DApi&f=1"/>
-                <PortfolioItem link="https://sans1812.pythonanywhere.com/explo/sans/" img="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.XYbEaZF3-qRmSY8PpPqbhAHaE8%26pid%3DApi&f=1"/>
+                {/* <PortfolioItem link="https://sans1812.pythonanywhere.com/explo/sans/" img="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.XYbEaZF3-qRmSY8PpPqbhAHaE8%26pid%3DApi&f=1"/> */}
+                <Link to="/explo">
+                    <div class="portfolio-item">
+                        <div class="image">
+                            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.XYbEaZF3-qRmSY8PpPqbhAHaE8%26pid%3DApi&f=1" alt=""/>
+                        </div>
+                    </div>
+                </Link>
                 <PortfolioItem link="https://sans1812.pythonanywhere.com/problemset/" img="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.explicit.bing.net%2Fth%3Fid%3DOIP.jMLSvZ0rhLV7YuZRBrruyQHaD4%26pid%3DApi&f=1"/>
                 <Link to="/sudoku">
                     <div class="portfolio-item">
