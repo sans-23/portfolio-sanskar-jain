@@ -5,7 +5,7 @@ export default function About({isActive}){
     const style1 = {animation: "appear 1s ease-in-out", display: "block", ttransform: "translateY(0) scaleY(1)"}
     const style2 = {display:"none"}
     return(
-        <section style={isActive==1 ? style1: style2}>
+        <section style={isActive===1 ? style1: style2}>
             <div class="main-title">
                 <h2>About <span>me</span><span class="bg-text">my stats</span></h2>
             </div>
@@ -16,7 +16,7 @@ export default function About({isActive}){
                     Hi, this is Sanskar Jain. I'm persuaing my B.tech in Civil Engineering at IIT BHU.
                     </p>
                     <div class="btn-con">
-                        <a href="#" class="main-btn">
+                        <a href="https://drive.google.com/file/d/1_u38GaTfwZZnzMyZWkjc2NZtohZWaVER/view?usp=sharing" class="main-btn">
                             <span class="btn-text">Download CV</span>
                             <span class="btn-icon"><i class="fas fa-download"></i></span>
                         </a>

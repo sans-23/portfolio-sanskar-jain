@@ -7,6 +7,29 @@
     min-height: 100vh;
     color: #dbe1e8;
 }
+  
+.title h3 {
+    position: relative;
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.title h3 span {
+    color: var(--color-secondary);
+}
+
+.title h3 .bgText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: var(--color-grey-5);
+    transition: all .4s ease-in-out;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+    font-weight: 800;
+    font-size: 6.3rem;
+}
 
 .wrapper > h3{
     color: #1DA1F2;
@@ -22,6 +45,17 @@
     text-align: center;
     padding: 0;
     border: 1px solid #12181b;
+}
+
+/* hide number arrow provided by browser on default */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
 }
 
 table{
@@ -79,6 +113,7 @@ input[disabled] {
         width: 30px;
         height: 30px;
         font-size: 16px;
+        border: 0.7px solid #12181b;
     }
 
     .solveBtn{
@@ -94,5 +129,16 @@ input[disabled] {
         padding: 8px 16px;
         border-radius: 16px;
         font-size: 12px;
+    }
+
+    .title h3 {
+        position: relative;
+        text-transform: uppercase;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    
+    .title h3 .bgText {
+        font-size: 5.1rem;
     }
  }

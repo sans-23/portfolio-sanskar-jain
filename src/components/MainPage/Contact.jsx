@@ -4,7 +4,7 @@ export default function Contact({isActive}){
     const style1 = {animation: "appear 1s ease-in-out", display: "block", ttransform: "translateY(0) scaleY(1)"}
     const style2 = {display:"none"}
     return(
-        <section style={isActive==1 ? style1: style2} className="section sec5 contact"> 
+        <section style={isActive===1 ? style1: style2} className="section sec5 contact"> 
             <div class="contact-container">
                 <div class="main-title">
                     <h2>Contact <span>Me</span><span class="bg-text">Contact</span></h2>
@@ -55,19 +55,19 @@ export default function Contact({isActive}){
                         </div>
                         <div class="contact-icons">
                             <div class="contact-icon">
-                                <a href="#" target="_blank">
+                                <a href="https://www.instagram.com/23_sans_/" rel="noreferrer"  target="_blank">
                                     <i class="fab fa-instagram"></i>
                                 </a>
-                                <a href="#" target="_blank">
+                                <a href="https://twitter.com/sans1823" rel="noreferrer" target="_blank">
                                     <i class="fab fa-twitter"></i>
                                 </a>
-                                <a href="https://github.com/sans-23" target="_blank">
+                                <a href="https://github.com/sans-23" rel="noreferrer" target="_blank">
                                     <i class="fab fa-github"></i>
                                 </a>
-                                <a href="https://www.linkedin.com/in/sanskar-jain-7285a91b3/" target="_blank">
+                                <a href="https://www.linkedin.com/in/sanskar-jain-7285a91b3/" rel="noreferrer" target="_blank">
                                     <i class="fab fa-linkedin"></i>
                                 </a>
-                                <a href="https://lichess.org/@/SANSKAR_JAIN" target="_blank">
+                                <a href="https://lichess.org/@/SANSKAR_JAIN" rel="noreferrer" target="_blank">
                                     <span class="iconify" data-icon="simple-icons:lichess"></span>
                                 </a>
                             </div>
@@ -86,7 +86,7 @@ export default function Contact({isActive}){
                                 <textarea name="" id="" cols="15" rows="8" placeholder="Message Here..."></textarea>
                             </div>
                             <div class="submit-btn">
-                                <a href="#" class="main-btn">
+                                <a href="https://drive.google.com/file/d/1_u38GaTfwZZnzMyZWkjc2NZtohZWaVER/view?usp=sharing" class="main-btn">
                                     <span class="btn-text">Download CV</span>
                                     <span class="btn-icon"><i class="fas fa-download"></i></span>
                                 </a>

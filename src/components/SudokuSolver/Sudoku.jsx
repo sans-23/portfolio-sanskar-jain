@@ -107,7 +107,10 @@ export default function Sudoku(props){
     return (
         <div>
             <div className={styles.wrapper}>
-                <h3>Sudoku Solver</h3>
+            <div class={styles.title}>
+                <h3>Sudoku <span>Solver</span><span class={styles.bgText}>Play</span></h3>
+            </div>
+            <br/><br/>
                 <table>
                     <tbody>
                         {
@@ -117,6 +120,7 @@ export default function Sudoku(props){
                                         [0,1,2,3,4,5,6,7,8].map((col, cIndex) => {
                                             return  <td key={rIndex+cIndex*101}>
                                                         <input onChange={(e) => onInputChange(e,row,col)} 
+                                                        type="number"
                                                         value={sudokuArr[row][col]===-1 ? '':sudokuArr[row][col]}  
                                                         className={styles.cellInput} 
                                                         disabled={initial[row][col] !==-1 }
