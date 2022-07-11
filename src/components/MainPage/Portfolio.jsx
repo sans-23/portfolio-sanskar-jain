@@ -33,7 +33,13 @@ export default function Portfolio({isActive}){
                         </div>
                     </div>
                 </Link>
-                <PortfolioItem img="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.Fh8JCeH4VMUotEO-VWV1rwAAAA%26pid%3DApi&f=1"/>
+                <Link to="/memory-game">
+                    <div class="portfolio-item">
+                        <div class="image">
+                            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.biUEsX4dB7ObfFTxvdprMwHaE7%26pid%3DApi&f=1" alt=""/>
+                        </div>
+                    </div>
+                </Link>
                 <PortfolioItem img="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.Fh8JCeH4VMUotEO-VWV1rwAAAA%26pid%3DApi&f=1"/>    
             </div>
         </section>

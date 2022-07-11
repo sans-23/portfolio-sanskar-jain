@@ -1,13 +1,11 @@
 a {text-decoration:none;}
 .wrapper{
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    align-items: center;
+    max-width: 960px;
+    margin: auto;
 }
 .sidenav {
     height: 100%;
-    width: 0;
+    width: 200px;
     position: fixed;
     z-index: 1;
     top: 0;

@@ -42,27 +42,24 @@ export default function Sieve(){
     }
     return (
         <>
-        <div className="w3-top w3-padding w3-container w3-hide-small">
+        <div className="w3-hide-small">
                 <div className="w3-bar w3-centre w3-large w3-dark w3-round w3-border">
-                    <a href="#" className="w3-bar-item w3-light-grey"> <i className="material-icons">home</i>  Home</a>
-                    <a href="#" className="w3-bar-item">Quiz</a>
+                    <a href="#" className="w3-bar-item w3-light-grey">Unified Soil Classification System</a>
                     <a href="#" className="w3-bar-item"> Portfolio</a>
                     <a href="#" className="w3-bar-item"> About</a>
                 </div>
             </div>
-            <div className="w3-top w3-bar w3-dark w3-hide-large w3-hide-medium">
-                <img className="w3-bar-item w3-left" src="https//www.google.com" alt="logo" />
-                <span className="w3-bar-item w3-text-light w3-right" onClick={toggleNav}>&#9776;</span>
+            <div style={{height:"59px", backgroundColor:"#12181b"}} className="w3-top w3-bar w3-hide-large w3-hide-medium">
+                <img style={{height:"59px"}} className="w3-bar-item w3-left" src="https://sans1812.pythonanywhere.com/static/img/qrious.png" alt="logo" />
+                <span style={{fontSize:"30px"}} className="w3-bar-item w3-text-light w3-right" onClick={toggleNav}>&#9776;</span>
             </div>
             {sideNav ?
-                <div id="mySidenav" className="sidenav w3-text-light">
+                <div id="mySidenav" style={{marginTop:"60px"}}>
                     <a href="#" className="w3-button w3-block">Home</a>
-                    <a href="#" className="w3-button w3-block">Portfolio</a>
                     <a href="#" className="w3-button w3-block"> About</a>
                 </div>:<div></div>
             }
         <div className={styles.wrapper}>
-            <div>
             <div className="w3-container w3-half w3-padding-48">
                 <div className="w3-row w3-padding">
                     <button className="w3-button w3-col s6 w3-center" onClick={showSieveA}>SET 1</button>
@@ -70,7 +67,7 @@ export default function Sieve(){
                 </div>
                 { isSieveA?
             
-                    <table className="w3-table w3-centered w3-card w3-round-xlarge" style={{color:"#fff", backgroundColor:"#12181b", border:"none"}}>
+                    <table className="w3-table w3-centered w3-card-4 w3-round-xlarge" style={{color:"#fff", backgroundColor:"#12181b", border:"none"}}>
                         <tr className="w3-round-xlarge" style={{fontWeight:"bold"}}>
                             <th><h5>Sieve Size</h5></th>
                             <th>
@@ -123,8 +120,11 @@ export default function Sieve(){
                         </tr>
                     </table>
                 }
+                
             </div>
             <List/>
+            <div>
+            
             </div>
         </div>
         <Footer/>
