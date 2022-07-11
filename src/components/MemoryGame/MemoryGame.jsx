@@ -72,7 +72,8 @@ export default function MemoryGame(){
                     />
                 ))}
             </div>
-            <div className={styles.turn}>Turns : {turns}</div>
+            {cards.length>0 ? <div className={styles.turn}>Turns : {turns}</div> : <div></div>}
+            
         </div>
         </>
     )
