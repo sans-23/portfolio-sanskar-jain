@@ -82,6 +82,7 @@ td{
 
 .solveBtn{
     background-color: #1DA1F2;
+    color: white;
     font-weight: bold;
     padding: 12px 20px;
     border: none;
@@ -92,6 +93,7 @@ td{
 
 .checkBtn, .resetBtn{
     background-color: #1DA1F2;
+    color: white;
     font-weight: bold;
     padding: 12px 20px;
     border: none;
@@ -101,6 +103,7 @@ td{
 
 .solveBtn:hover, .checkBtn:hover, .resetBtn:hover{
     background-color: #dbe1e8;
+    color: #12181b;
     transform: translateY(-2px);
 }
 
