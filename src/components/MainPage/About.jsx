@@ -25,13 +25,13 @@ export default function About({isActive}){
                 <div class="right-about">
                     <div class="about-item">
                         <div class="abt-text">
-                            <p class="large-text">1600+</p>
+                            <p class="large-text">1800+</p>
                             <p class="small-text">Lichess  <br /> Rating</p>
                         </div>
                     </div>
                     <div class="about-item">
                         <div class="abt-text">
-                            <p class="large-text">1200+</p>
+                            <p class="large-text">1600+</p>
                             <p class="small-text">Codeforces <br /> Rating</p>
                         </div>
                     </div>
