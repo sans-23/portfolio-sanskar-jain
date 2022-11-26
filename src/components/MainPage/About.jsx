@@ -16,7 +16,7 @@ export default function About({isActive}){
                     Hi, this is Sanskar Jain. I'm persuaing my B.tech in Civil Engineering at IIT BHU.
                     </p>
                     <div class="btn-con">
-                        <a href="https://drive.google.com/file/d/1_u38GaTfwZZnzMyZWkjc2NZtohZWaVER/view?usp=sharing" class="main-btn">
+                        <a href="https://drive.google.com/file/d/10_lxh4eLEq5Lfjc_eLFnYSxJLU1PqKD0/view?usp=share_link" class="main-btn">
                             <span class="btn-text">Download CV</span>
                             <span class="btn-icon"><i class="fas fa-download"></i></span>
                         </a>
