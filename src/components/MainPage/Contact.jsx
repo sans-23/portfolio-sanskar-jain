@@ -86,7 +86,7 @@ export default function Contact({isActive}){
                                 <textarea name="" id="" cols="15" rows="8" placeholder="Message Here..."></textarea>
                             </div>
                             <div class="submit-btn">
-                                <a href="https://drive.google.com/file/d/1_u38GaTfwZZnzMyZWkjc2NZtohZWaVER/view?usp=sharing" class="main-btn">
+                                <a href="https://drive.google.com/file/d/10_lxh4eLEq5Lfjc_eLFnYSxJLU1PqKD0/view?usp=share_link" class="main-btn">
                                     <span class="btn-text">Download CV</span>
                                     <span class="btn-icon"><i class="fas fa-download"></i></span>
                                 </a>
