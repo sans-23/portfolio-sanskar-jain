@@ -23,7 +23,7 @@ export default function Header({isActive}){
                         and making awesome websites side by side.
                     </p>
                     <div className="btn-con">
-                        <a href="https://drive.google.com/file/d/1_u38GaTfwZZnzMyZWkjc2NZtohZWaVER/view?usp=sharing" className="main-btn">
+                        <a href="https://drive.google.com/file/d/10_lxh4eLEq5Lfjc_eLFnYSxJLU1PqKD0/view?usp=share_link" className="main-btn">
                             <span className="btn-text">Download CV</span>
                             <span className="btn-icon"><i className="fas fa-download"></i></span>
                         </a>
